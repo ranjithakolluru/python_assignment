@@ -1,0 +1,11 @@
+h1{
+	color: #130ed0;
+	text-shadow: 2px 2px #3f0000;
+}
+#button_css{
+	border-radius: 8px;
+	border: medium outset #ff0000;
+    background-color: #8b11e1;
+    text-decoration: none;
+    padding: 2px;
+}

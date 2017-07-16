@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{{url_for('static',filename='bootstrap/css/bootstrap.css') }}">
+<script  src="../static/bootstrap/js/redirect.js"></script>
+<script src="../static/bootstrap/js/jquery.min.js"></script>
+
+</head>
+
+
+
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQClXmhZTSsArB425AyoN4hbEIuP0X3Cx0_vXXSXq21TNmpk-2f">
+  <form>
+  <br><div class="container">
+  <label><b>Username</b></label>
+    <input type="text" id="inputemail" placeholder="Enter Username" name="uname" required></br>
+
+    <br><label><b>Password</b></label>
+    <input type="password" id="inputpassword" placeholder="Enter Password" name="psw" required></br>
+
+   
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="btn btn-secondary">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+  </form>
+   <button type="submit" class="btn btn-primary" onclick="Login()">Login</button>
+  </body>
+
+	
+</html>
